@@ -1,8 +1,8 @@
-## NodeMCU ESP8266 Wifi Extender / Kablosuz Ağ Çoklayıcı / Güçlendirici Türkçe Döküman
-
+## NodeMCU ESP8266 Wifi Extender / Kablosuz Ağ Çoklayıcı / Güçlendirici
 ![NodeMCU](sample_nodemcu.jpg "NodeMCU")
 
-Merhabalar, birçok yerden parça parça toplayıp extenderımı tamamladığım bu projemi faydalı olması dileğiyle türkçe olarak paylaşıyorum
+Merhabalar,
+<br>Birçok yerden parça parça toplayıp extenderımı tamamladığım bu projemi faydalı olması dileğiyle türkçe olarak paylaşıyorum
 <br>Adım adım izleyerek sizde uygun maliyette olan bu arduino modülü ile wifi ağınızı genişletebilirsiniz diye düşünüyorum.
 
 
@@ -20,11 +20,11 @@ Merhabalar, birçok yerden parça parça toplayıp extenderımı tamamladığım
 
 #define CONS_SPEED 115200 //* eger daha onceden baglanti hizini degistirdiyseniz
 
-// Evdeki/Mevcut AP Cihazin Bilgileri
+//Evdeki/Mevcut AP Cihazin Bilgileri
 const char* client_ssid     = "SSID";  //*
 const char* client_password = "SIFRE"; //*
 const char* esp_hostname = "CLIENT_HOSTNAME"; //* Evdeki/Mevcut APye katilacak cihaza bir isim verin
-// Olusturulacak Yazilimsal AP Bilgileri
+//Olusturulacak Yazilimsal AP Bilgileri
 const char* server_ssid     = "SOFT_AP"; //*
 const char* server_password = "SIFRE"; //*
 int server_channel = 11; //* Optional
