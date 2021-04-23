@@ -1,5 +1,7 @@
 ## NodeMCU ESP8266 Wifi Extender / Kablosuz Ağ Çoklayıcı / Güçlendirici Türkçe Döküman
 
+![NodeMCU](sample_nodemcu.jpg "NodeMCU")
+
 Merhabalar, birçok yerden parça parça toplayıp extenderımı tamamladığım bu projemi faydalı olması dileğiyle türkçe olarak paylaşıyorum
 <br>Adım adım izleyerek sizde uygun maliyette olan bu arduino modülü ile wifi ağınızı genişletebilirsiniz diye düşünüyorum.
 
@@ -63,19 +65,22 @@ void setup() {
 void loop() {}
 ~~~
 
+![IDE](sample_ide.png "IDE")
 - IDE vasıtasıyla kodu derleyip cihaza yükleyin
 
 
 ### Mevcut AP veya Modeminizde;
 - DHCP ayarlarına girip yazılımsal ap cihazın ip adresini 192.168.1.254 olarak sabitleyin.
+- ![DHCP](sample_dhcp.png "DHCP")
 - Yazılımsal AP cihazının oluşturduğu wifi ağı için kullandığı ip aralığı 192.168.254.1-254 dür. 
 <br>Bu aralık erişilebilir olması ve bu aralıkta alınan adresin modeme erişebilmesi için routing eklenmesi gerekmektir. 
 <br>Bu ayarı Network 192.168.254.1, Subnet Mask 255.255.255.0 Gateway 192.168.1.254 şeklinde tanımlayın.
+![Routing](sample_routing.png "Routing")
 
 
 Artık Yazılımsal APnize bağlantı yaptığınızda internete erişebileceğinizi göreceksiniz..
 
 ### Hata veya erişim sorunlarında
 Bağlantının çalışmaması durumunda Arduino IDE üzerinden seri port ekranı vasıtası ile çıktıları kontrol edebilirsiniz.
-<br>Routing önemlidir doğru şekilde yaptığınıza emin olun. Ayrıca erişim kontrollerini pingler ile sağlayabilirsiniz.
+<br>Routing önemlidir, doğru şekilde yaptığınıza emin olun. Ayrıca erişim kontrollerini pingler ile sağlayabilirsiniz.
 <br>Bazı modem yada firewall tarzı cihazlarda wifi isolation, dos koruması vb. güvenlik önlemleri bulunabilir buda sizin cihazınızın çalışmamasına sebep olabilir.
