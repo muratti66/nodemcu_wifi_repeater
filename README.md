@@ -4,13 +4,14 @@
 Merhabalar,
 <br>Birçok yerden parça parça toplayıp extenderımı tamamladığım bu projemi faydalı olması dileğiyle türkçe olarak paylaşıyorum
 <br>Adım adım izleyerek sizde uygun maliyette olan bu arduino modülü ile wifi ağınızı genişletebilirsiniz diye düşünüyorum.
-<br>Son olarak; bu modülü kullanarak yaptığım speed testlerinde hızın 3Mbit civarında olduğunu gördüm. Bu yapının streaming tipi iletişimlerde yetersiz kalması anlamına gelmektedir.
-
+<br>Son olarak; bu modülü kullanarak yaptığım speed testlerinde hızın 3Mbit civarında olduğunu gördüm. Bu yapının basit veri iletişimlerinde başarılı fakat streaming tipi iletişimlerde yetersiz kalması anlamına gelmektedir.
 
 ### Hazırlık;
 - Arduino IDE nizi hazırlayın
 - NodeMCU Windows/mac/linux driverından ilgili olanı yükleyin (bağlantı için olmazsa olmaz olabiliyor..)
 
+### Ağ Yapısı;
+![AirMap](air_map.png "AirMap")
 
 ### Başlıyoruz;
 - IDEnizi aşağıdaki kodu yapıştırın ve "*" kullanılan değerleri lütfen kendinize göre düzenleyin
